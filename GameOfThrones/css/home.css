@@ -1,0 +1,299 @@
+.intro {
+  margin: 0 auto;
+  padding: 32px 24px;
+  max-width: 720px;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.selectCharacter {
+  margin: 0 auto;
+}
+
+.playerTurn {
+  text-shadow: 3px 3px #000000;
+  width: 90%;
+  margin: 24px auto;
+}
+
+.cards {
+  align-items: flex-start;
+}
+
+.card {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 32px auto;
+  width: 80%;
+  box-shadow: 4px 6px 6px 4px rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.img {
+  width: 100%;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+  color: #ededed;
+}
+
+.select {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-select {
+  background-color: black;
+  margin: 24px 0;
+  width: 50%;
+  color: #ededed;
+  padding: 16px;
+  border-radius: 25px;
+}
+
+.summary {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 720px;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.summary p {
+  font-size: 1.8rem;
+}
+
+.padding {
+  padding: 24px;
+}
+
+.btn-row {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: 16px;
+}
+
+.btn-light {
+  background-color: #ededed;
+  color: #000000;
+}
+
+.btn-light,
+.btn-blue {
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin: 16px auto;
+}
+
+.btn-blue {
+  background-color: #29527a;
+  color: #ededed;
+  margin-top: 40px;
+  border: none;
+}
+
+.modal-character-content {
+  background-color: #ededed;
+  margin: auto;
+  padding: 8px 16px;
+  border: 1px solid #888;
+  color: black;
+}
+
+.born p,
+.culture p,
+.titles p {
+  margin: 0 8px;
+}
+
+@keyframes loader {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: #394d71;
+  border-bottom-color: #394d71;
+  animation: loader 0.8s ease infinite;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .playerTurn {
+    font-size: 2.5rem;
+    text-shadow: 3px 3px #000000;
+  }
+
+  .cards {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 35%;
+    margin: 32px;
+  }
+
+  .modal-character-content {
+    width: 90%;
+    height: 60%;
+    margin-top: 48px;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .col-1 {
+    width: 40%;
+  }
+
+  .col-2 {
+    width: 40%;
+  }
+
+  .born p,
+  .culture p,
+  .titles p {
+    margin: 0 8px;
+  }
+
+  .btn-select {
+    width: 30%;
+    margin-top: 88px;
+  }
+
+  .btn-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 48px;
+  }
+
+  .btn-light,
+  .btn-blue {
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 16px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .playerTurn {
+    font-size: 2.5rem;
+    text-shadow: 3px 3px #000000;
+  }
+
+  .modal-character-content {
+    width: 50%;
+    height: 50%;
+    margin: 80px auto;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .col-2 {
+    width: 50%;
+  }
+
+  .col-1 {
+    width: 40%;
+    height: 100%;
+  }
+
+  .col-1 img {
+    height: 100%;
+  }
+
+  .btn-select {
+    width: 30%;
+    margin-top: 48px;
+  }
+  .cards {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 18%;
+  }
+
+  img {
+    margin: 0;
+    width: 100%;
+  }
+
+  .born,
+  .culture,
+  .titles {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .titles,
+  .born {
+    align-items: baseline;
+  }
+
+  .culture {
+    align-items: center;
+  }
+
+  .bold {
+    margin: 8px;
+  }
+
+  .btn-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 48px;
+  }
+
+  .btn-light,
+  .btn-blue {
+    padding: 16px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 16px;
+  }
+}

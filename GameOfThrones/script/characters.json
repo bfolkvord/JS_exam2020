@@ -1,0 +1,93 @@
+{
+  "data": [
+    {
+      "name": "Arya Stark",
+      "culture": "Northmen",
+      "born": "In 289 AC, at Winterfell",
+      "img": "./img/arya.svg",
+      "sigil": "./img/stark2.svg",
+      "titles": ["Princess"]
+    },
+    {
+      "name": "Catelyn Stark",
+      "culture": "Rivermen",
+      "born": "In 264 AC, at Riverrun",
+      "img": "./img/catelyn.svg",
+      "sigil": "./img/stark3.svg",
+      "titles": ["Lady of Winterfell"]
+    },
+    {
+      "name": "Jon Snow",
+      "culture": "Northmen",
+      "born": "In 283 AC",
+      "img": "./img/jonsnow.svg",
+      "sigil": "./img/stark1.svg",
+      "titles": ["Lord Commander of the Night's Watch"]
+    },
+    {
+      "name": "Sansa Stark",
+      "culture": "Northmen",
+      "born": "In 286 AC, at Winterfell",
+      "img": "./img/sansa.svg",
+      "sigil": "./img/stark4.svg",
+      "titles": ["Princess"]
+    },
+    {
+      "name": "Cersei Lannister",
+      "culture": "Westerman",
+      "born": "In 266 AC, at Casterly Rock",
+      "img": "./img/cersei.svg",
+      "sigil": "./img/lannister2.svg",
+      "titles": [
+        "Light of the West",
+        "Queen Dowager",
+        "Protector of the Realm",
+        "Queen Regent"
+      ]
+    },
+    {
+      "name": "Tyrion Lannister",
+      "culture": "Westerman",
+      "born": "In 273 AC, at Casterly Rock",
+      "img": "./img/tyrion.svg",
+      "sigil": "./img/lannister1.svg",
+      "titles": ["Acting Hand of the King (former)", "Master of Coin (former)"]
+    },
+    {
+      "name": "Daenerys Targaryen",
+      "culture": "Valyrian",
+      "born": "In 284 AC, at Dragonstone",
+      "img": "./img/daenerys.svg",
+      "sigil": "./img/targaryen.svg",
+      "titles": [
+        "Queen of the Andals and the Rhoynar and the First Men, Lord of the Seven Kingdoms",
+        "Khaleesi of the Great Grass Sea",
+        "Breaker of Shackles/Chains"
+      ]
+    },
+    {
+      "name": "Missandei",
+      "culture": "Naathi",
+      "born": "In 288 AC or 289 AC, at Naath",
+      "img": "./img/missandei.svg",
+      "sigil": "./img/naath.svg",
+      "titles": "None"
+    },
+    {
+      "name": "Melisandre",
+      "culture": "Asshai",
+      "born": "At Unknown",
+      "img": "./img/melisandre.svg",
+      "sigil": "./img/redpriestess.svg",
+      "titles": "None"
+    },
+    {
+      "name": "The Night King",
+      "culture": "White Walker",
+      "born": "Was created in 10,000 BC",
+      "img": "./img/nightking.svg",
+      "sigil": "./img/whitewalker.svg",
+      "titles": "None"
+    }
+  ]
+}

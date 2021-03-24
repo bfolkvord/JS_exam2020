@@ -1,0 +1,120 @@
+/*Global styles */
+@font-face {
+  font-family: "game-of-thrones";
+  src: url("/font/Game\ of\ Thrones.ttf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/img/crows.jpeg);
+  background-size: cover;
+  color: #ededed;
+  font-family: "Crimson Text", serif;
+  font: 100% "Crimson Text", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 32px;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Buttons */
+
+.close {
+  color: #3d3d3d;
+  float: right;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0;
+  width: 10%;
+  border: none;
+}
+
+button,
+a {
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: "Crimson Text", serif;
+}
+
+button:hover,
+a:hover {
+  transform: scale(1.035);
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+button:disabled,
+a:disabled {
+  cursor: not-allowed;
+  filter: brightness(0.6);
+}
+
+button:disabled:hover,
+a:disabled:hover {
+  cursor: not-allowed;
+  transform: none;
+}
+
+/*Typography */
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 60px auto;
+  color: silver;
+  font-family: "game-of-thrones";
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  margin: 16px 0;
+}
+
+h5 {
+  font-size: 1.4rem;
+  margin: 8px;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
